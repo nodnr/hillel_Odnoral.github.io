@@ -21,7 +21,7 @@ header {
     max-width: 1600px;
     margin: 11px auto;
 }
-header img{ width: 24px;height: 24px;}
+.Facebook{ width: 24px;height: 24px;}
 
 
 form.search input[type=text] {
@@ -38,10 +38,14 @@ form.search input[type=text] {
 div#Logo-header{
     margin: 4px 20px 40px 20px;
 }
-#Logo-header span {
+.logo {
     font-family: sans-serif;
     font-size: 52px;
     color: lightblue;
+    
+}
+#Logo-header .logo{
+    display: contents
 }
 #Logo-header b {
     padding: 20px;
@@ -215,4 +219,16 @@ input[type=submit] {
     padding: 10;
     width: 112px;
     cursor: pointer;
+}
+footer{
+    background-color: gray;
+}
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 11px auto;
+    align-items: center;
+    height: 58px;
 }
