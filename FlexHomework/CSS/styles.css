@@ -1,0 +1,218 @@
+body{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+
+}
+main {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: ghostwhite;
+}
+header {
+    background-color: gray;
+    height: 50px;
+}
+
+#header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 11px auto;
+}
+header img{ width: 24px;height: 24px;}
+
+
+form.search input[type=text] {
+    width: 180px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 150px 0px; 
+    background-repeat: no-repeat;
+    padding-right: 30;
+  }
+div#Logo-header{
+    margin: 4px 20px 40px 20px;
+}
+#Logo-header span {
+    font-family: sans-serif;
+    font-size: 52px;
+    color: lightblue;
+}
+#Logo-header b {
+    padding: 20px;
+    float: right;
+    font-size: x-large;
+    font-family: system-ui;
+}
+#conteiner1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.under_conteiner1{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: stretch;
+    margin: 12px;
+    flex-basis: min-content;
+}
+.under_conteiner1 img {
+    height: 200px;
+}
+.hyperlink {
+    color: darkgrey;
+    font-size: 20px;
+    text-decoration: overline;
+  }
+  .under_conteiner1 h3 {
+    font-size: x-large;
+  }
+p{
+    font-family: cursive;
+    color:lightgrey; 
+}
+#conteiner2 {
+    display: flex;
+    margin-top: 100px;
+}
+
+#conteiner2 img{
+    flex-grow: 1;
+    width: 100%;
+}
+#conteiner2 div{
+    width: 50%;
+}
+#conteiner2-text {
+    display: flex;
+    flex-wrap: wrap
+}
+.under_conteiner2{
+    width: 43%;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#textblock1{
+    font-weight:900;font-size: 28px;
+    color: black;
+}
+#textblock2{
+    background-color: lightblue;
+    color: black;
+}
+#conyeiner3 {
+    display: flex;
+    margin-top: 100px;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.conteiner3_1 img{width: 100%;}
+.conteiner3_1 {
+    width: 29%;
+}
+.conteiner3_1 h3 {
+    margin: 0;
+    font-size: x-large;
+}
+.conteiner3_1 p {
+    margin-top: 60px;
+}
+
+#conteiner4 {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.conteiner4_1{
+    width: 50%;
+    text-align: center;
+}
+#conteiner5_1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+#conteiner5{margin-top: 100px;}
+.Violet {
+    font-size: x-large;
+    color: blueviolet;
+    font-style: unset;
+    font-family: 'Roboto', sans-serif;
+}
+p.Violet{margin: 0;}
+.inside_block5{
+    width: 22%;
+    background-color: lavender;
+    padding: 0 20 20 20;
+}
+.inside_block5 p{margin: 24px 0;}
+.button{
+    padding: 8px 16px;
+    font-size: 16px;
+    color: white;
+    cursor: not-allowed;
+    background-color: blueviolet;
+    text-decoration-line: none;
+}
+#conteiner6 a{
+    color: black;
+    border: 1px solid black;
+    text-decoration-line: none;
+}
+
+#conteiner6{
+    margin-top: 100px;
+    text-align: center;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#conteiner6 h2{
+    font-size: x-large;
+    font-style: unset;
+    font-family: 'Roboto', sans-serif;
+}
+.data input, textarea {
+    border: none;
+    border-bottom: solid gray;
+    margin: 8px;
+    width: 380px;
+    height: 20px;
+    font-size: 12px;
+    background-color: ghostwhite;
+}
+.data input, textarea::placeholder{
+    padding-left: 10px;
+}
+input#email {
+    border-bottom: solid;
+}
+.data textarea{
+    resize: none;
+    height: 68px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    font-size: 16px;
+}
+input[type=submit] {
+    margin-top: 20px;
+    background: none;
+    padding: 10;
+    width: 112px;
+    cursor: pointer;
+}
